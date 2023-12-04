@@ -1,0 +1,39 @@
+:root {
+    --bg-nav:#ff9330;    
+}
+
+/* selettori tag */
+nav {
+    background-color: var(--bg-nav);
+}
+
+main{
+    background-color: aqua;
+}
+
+aside{
+    background-color: blueviolet;
+}
+
+/* selettore classe */ /* ID(univoco)>Classe(specifica d insiemi d elementi)>SelettoreTag(Prende tutto quello che trova !=ID e classe) */
+.primo{
+    background-color: rgb(170, 170, 52);
+    width: 200px;
+    height: 100px;
+}
+
+.secondo{
+    background-color: rgb(121, 55, 9);
+    width: 200px;
+    height: 100px;
+}
+
+.terzo{
+    background-color: dimgray;
+    width: 200px;
+    height: 100px;
+}
+
+div{
+    background-color: maroon;
+}
